@@ -8,16 +8,18 @@ body {
   /* background-color: #f2c200; */
 }
 .nav {
-  padding: 16px 160px;
+  padding: 1rem 10rem;
   background-color: #0c3440;
   color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 .nav-logo {
   flex: 3;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -43,7 +45,7 @@ body {
   display: inline-flex;
 }
 .nav-links ul li a,
-.nav-logo a,.main-heading span, .main-heading p::first-letter,.input-sec button::first-letter,.title-sec p span:nth-of-type(1)::first-letter,.title-sec p span:nth-of-type(2)::first-letter,.icon-heading h2,.first-card-text-sec h2,.icon-heading h2,.heading-sec h2,.quote-sec p,.penLogo h2,.card-text p::first-letter,.card-text h2::first-letter,.teamLogo h2{
+.nav-logo a,.main-heading span, .main-heading p::first-letter,.input-sec button::first-letter,.title-sec p span:nth-of-type(1)::first-letter,.title-sec p span:nth-of-type(2)::first-letter,.icon-heading h2,.first-card-text-sec h2,.icon-heading h2,.heading-sec h2,.quote-sec p,.penLogo h2,.card-text p::first-letter,.card-text h2::first-letter,.teamLogo h2,.member h3 ,.para-sec h3::first-letter,.icon-sec h2::first-letter ,.formBtn::first-letter{
   text-transform: capitalize;
 }
 .first-card-text-sec a{
@@ -64,23 +66,23 @@ body {
   align-items: center;
 }
 .banner-sec {
-  /* box-shadow: 0rem .3125rem .375rem 0rem rgba(0, 0, 0, 0.69); */
+  /* box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.69); */
 }
 .container .banner-sec .main-heading {
-  font-size: 28.8px;
+  font-size: 1.8rem;
   color: #fff;
   text-align: center;
 }
 .container .banner-sec .main-heading h1 {
-  padding: 0 0 48px 0;
+  padding: 0 0 3rem 0;
 }
 .container .banner-sec .main-heading h1 span {
   color: #f2c200;
 }
 .container .banner-sec .main-heading p {
-  padding: 0 0 8px 0;
+  padding: 0 0 .5rem 0;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
 .input-sec {
@@ -90,28 +92,28 @@ body {
 }
 .input-sec input {
   text-align: center;
-  font-size: 22.4px;
+  font-size: 1.4rem;
   width: 80%;
-  padding: 16px 0;
-  border-radius: .1875rem;
+  padding: 1rem 0;
+  border-radius: 3px;
   border: none;
-  margin: 0 3.2px 0 0;
+  margin: 0 .2rem 0 0;
 }
 .input-sec input::placeholder {
   color: #b2b4b1;
 }
 .input-sec button {
-  font-size: 22.4px;
+  font-size: 1.4rem;
   background-color: #f2c200;
   border: none;
   color: #fff;
   font-weight: 700;
   width: 29%;
-  border-radius: .1875rem;
+  border-radius: 3px;
 }
 .social-icons {
-  padding: 48px 0 0 0;
-  font-size: 40px;
+  padding: 3rem 0 0 0;
+  font-size: 2.5rem;
   display: flex;
   width: 34%;
   justify-content: space-evenly;
@@ -128,20 +130,20 @@ body {
   color: #fff;
   background-color: #02aff2;
   border-radius: 50%;
-  padding: 10px;
-  font-size: 24px;
+  padding: .625rem;
+  font-size: 1.5rem;
 }
 .fa-google-plus {
   color: #d94937;
 }
 .title-sec {
   text-align: center;
-  padding: 128px 0;
-  font-size: 32px;
+  padding: 8rem 0;
+  font-size: 2rem;
   font-weight: 500;
   background-color: #f2c200;
   color: #fff;
-  /* box-shadow: 0rem .3125rem .375rem 0rem rgba(0, 0, 0, 0.69); */
+  /* box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.69); */
 }
 .title-sec p span {
   display: block;
@@ -152,9 +154,9 @@ body {
 .fa-pen,.fa-users{
   background-color: black;
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   border-radius: 50%;
-  padding: 13.2px;
+  padding: .825rem;
 }
 .portfolio-sec .icon-heading,
 .services-sec .icon-heading,
@@ -164,17 +166,20 @@ body {
 .portfolio-sec .icon-heading h2,
 .services-sec .icon-heading h2,
 .blog-sec .icon-heading h2 ,.meetTeamSec .teamLogo h2 {
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 
 .services-sec{
-  border-top: .125rem solid #ececec;
+  border-top: 2px solid #ececec;
 }
 
-.portfolio-sec,
+.portfolio-sec{
+  padding: 80px 0 16px  0;
+  background-color: #f0f0f0;
+}
 .services-sec,
 .blog-sec {
-  /* margin: 16px 0; */
+  /* margin: 1rem 0; */
   /* z-index: -1; */
   padding: 80px 0 128px  0;
   background-color: #f0f0f0;
@@ -191,7 +196,7 @@ body {
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  padding: 16px 96px;
+  padding: 1rem 6rem;
   /* width: 40%; */
 }
 
@@ -204,21 +209,21 @@ body {
 }
 .first-card-text-sec h2,
 .first-service-card h2 {
-  font-size: 17.6px;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 .first-card {
-  padding: 0 16px;
+  padding: 0 1rem;
 }
 .first-card-text-sec p {
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 .first-card-text-sec a {
   text-decoration: none;
   color: #f2c200;
 }
 .first-service-card i {
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
 }
 .first-service-card .heading-sec {
@@ -227,32 +232,32 @@ body {
 }
 
 .heading-sec h2{
-  padding: 8px 0;
+  padding: .5rem 0;
 }
 .heading-sec i{
   color:#eebf02;
 }
 .first-service-card {
-  margin: 0 16px;
-  padding: 8px;
+  margin: 0 1rem;
+  padding: .5rem;
   background-color: #e0e0e0;
 }
 .quote-sec {
-  padding: 128px 0;
-  /* font-size: 32px; */
+  padding: 8rem 0;
+  /* font-size: 2rem; */
   font-weight: 500;
   background-color: #f2c200;
   color: #000;
-  /* box-shadow: 0rem .3125rem .375rem 0rem rgba(0, 0, 0, 0.69); */
+  /* box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.69); */
 }
 .quote-sec div {
-  padding: 0 160px;
+  padding: 0 10rem;
 }
 .quote-sec div p {
   font-weight: 900;
 }
 .quote-sec div blockquote {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 900;
 }
 .quote-sec blockquote span {
@@ -263,29 +268,29 @@ body {
 }
 .blog-card-sec {
   display: flex;
-  padding: 0 160px;
+  padding: 0 10rem;
 }
 .blog-text-sec {
-  padding: 16px;
+  padding: 1rem;
 }
 .blog-text-sec p:first-child {
-  padding: 0 0 16px 0;
+  padding: 0 0 1rem 0;
   text-align: right;
   color: #c9cac9;
 }
 .blog-text-sec h2 {
-  font-size: 19.2px;
+  font-size: 1.2rem;
 }
 .first-card-blog {
   width: 70%;
-  padding: 0 16px 0 0;
+  padding: 0 1rem 0 0;
 }
 
 /* css */
 
 .blog {
   background-color: #f0f0f0;
-  padding: 128px 0;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,39 +298,39 @@ body {
 
 .blog .penLogo, .meetTeamSec .teamLogo{
   text-align: center;
-  padding: 0 0 32px 0;
+  padding: 0 0 2rem 0;
 }
 .blog .penLogo h2, .meetTeamSec .teamLogo h2{
   
-  padding: 16px 0 0 0;
+  padding: 1rem 0 0 0;
 }
 .photos{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding:  0 160px 
+  padding:  0 10rem 
 }
 .photos .photo-1{
-  margin: 0 16px;
-  box-shadow: 0rem .0625rem .125rem .0625rem rgba(0,0,0,30%);
+  margin: 0 1rem;
+  box-shadow: 0px 1px 2px 1px rgba(0,0,0,30%);
   background-color:#fbfbfb
 
 }
 .card-text{
-  padding: 16px;
+  padding: 1rem;
 }
 .photos .photo-1 p:nth-of-type(1){
   text-align:right;
-  font-size: 12.8px;
-  padding:  16px 0 16px 0;
-  border-top: .125rem dotted grey; 
+  font-size: .8rem;
+  padding:  1rem 0 1rem 0;
+  border-top: 2px dotted grey; 
 }
 .photos .photo-1 p:nth-of-type(2){
-  padding: 16px 0;
+  padding: 1rem 0;
   color: #a9a7a1;
 }
 .photos .photo-1 h2{
-  font-size: 19.2px;
+  font-size: 1.2rem;
   
   
 }
@@ -339,17 +344,17 @@ body {
 }
 
 .blogBtn{
-  padding: 16px;
-  font-size: 24px;
+  padding: 1rem;
+  font-size: 1.5rem;
   background-color: #f2c200;
   color: #fff;
   border:none;
-  margin: 64px 0;
+  margin: 4rem 0;
   text-align:center;
 }
 
 .meetTeamSec{
-  padding: 80px 224px;
+  padding: 5rem 14rem;
   background-color: #322a1f;
   color: #fff;  
   
@@ -359,7 +364,7 @@ body {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 0 64px 0;
+  padding: 0 0 4rem 0;
 }
 
 .teamPhotos .member{
@@ -376,7 +381,7 @@ body {
 
 .meetTeamSec .para-sec{
   text-align: center;
-  padding: 64px 0;
+  padding: 4rem 0;
 }
 .fa-users{
   background-color: #fff;
@@ -385,7 +390,7 @@ body {
 /* #9c9586 */
 
 .member h3{
-  padding:  16px 0 0 0;
+  padding:  1rem 0 0 0;
   
 }
 
@@ -398,35 +403,35 @@ body {
   
 }
 .para-sec span {
-  border-left: .125rem solid grey;
-  padding-left: 8px;
+  border-left: 2px solid grey;
+  padding-left: .5rem;
   color:#9c9586 
 }
 .para-sec p{
   color:#9c9586;
-  padding: 16px 0; 
+  padding: 1rem 0; 
 
 }
 
 .para-sec{
-  border-top: .125rem dotted grey; 
-  border-bottom: .125rem dotted grey; 
+  border-top: 2px dotted grey; 
+  border-bottom: 2px dotted grey; 
   
 }
 
 .fa-envelope{
   
   color: #fff;
-  font-size: 32px;
+  font-size: 2rem;
   border-radius: 50%;
-  padding: 13.2px;
+  padding: .825rem;
 }
 
 .form-sec .icon-sec{
  text-align: center;
 }
 .icon-sec h2{
-  padding: 0 0 16px 0;
+  padding: 0 0 1rem 0;
 }
 .form-sec .form{
   display: flex;
@@ -441,34 +446,100 @@ body {
 }
 .form div input{
   width: 49%;
-  margin: 8px;
-  padding: 8px;
+  margin: .5rem;
+  padding: .5rem;
 }
 .form textarea{
-  padding: 8px;
-  margin: 8px;
-  height: 160px;
-  /* padding: 8px; */
+  padding: .5rem;
+  margin: .5rem;
+  height: 10rem;
+  /* padding: .5rem; */
 
 }
 
 .form .formBtn{
   background-color: #eebf02;
-  padding: 8px;
+  padding: .5rem;
   color: #fff;
   border: none;
-  margin:  8px;
+  margin:  .5rem;
+  font-weight: 700;
 }
 footer{
   text-align: center;
 }
 footer div{
-  margin:  0 0 32px 0;
+  margin:  0 0 2rem 0;
 }
 .form-sec{
-  padding: 128px  0 0 0;
+  padding: 8rem  0 0 0;
 }
 
 button{
-border-radius: .3125rem;
+border-radius: 5px;
 }
+.table-sec{
+  background-color: #f2c200;
+  padding: 160px 0; 
+  
+}
+.table{
+  max-width: 80%;
+  margin: 0 auto;  
+}
+table{
+  /* border : .0625rem solid red; */
+  border-radius: .625rem;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+table th, table td{
+  padding: 16px;
+}
+
+
+thead{
+  background-color: #322a1f;
+  color: #fff;
+  /* border-radius: .625rem; */
+}
+thead th:first-child{
+  border-top-left-radius: .625rem ;
+}
+thead th:last-child{
+  border-top-right-radius: .625rem;
+  
+}
+
+tbody tr:nth-child(odd){
+  color:#322a1f
+  
+}
+tbody tr:nth-child(even){
+  background-color: #e7b900;
+  color: #fff;
+  /* border-radius: .625rem; */
+  border-bottom: .0625rem solid grey ; 
+  border-top:  .0625rem solid grey ; 
+}
+
+
+
+
+/* tr:last-child{
+  border-top-left-radius: .625rem ;
+  border-top-right-radius: .625rem;
+  
+} */
+
+ 
+
+
+
+
+table thead{
+
+}
+
